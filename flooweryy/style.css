@@ -1,0 +1,193 @@
+.container {  display: grid;
+    grid-template-columns: 35% [j] 65% 1fr 1fr;
+    /* grid-template-rows: 1.1fr 0.9fr 1fr; */
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header"
+      "setting isi isi"
+      "footer footer footer";
+  }
+  
+  .setting {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: setting;
+   
+    /* border: solid;
+    border-width: 0.1em; */
+  }
+  
+  .profilsaya { 
+    grid-area: 1 / 1 / 2 / 2;
+    border: solid;
+    border-width: 0.1em;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+  }
+  
+  .chat {
+     grid-area: 2 / 1 / 3 / 2; 
+     border: solid;
+     border-width: 0.1em;
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: center;
+     justify-content: center;
+     background-color: antiquewhite;
+
+    }
+  
+  .penilaian {
+     grid-area: 3 / 1 / 4 / 2; 
+     border: solid;
+     border-width: 0.1em;
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: center;
+     justify-content: center;
+     background-color: antiquewhite;
+    }
+  .favorite {
+     grid-area: 4 / 1 / 4 / 2; 
+     border: solid;
+     border-width: 0.1em;
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: center;
+     justify-content: center;
+      background-color: antiquewhite;
+    }
+  
+  .produk { 
+    grid-area: 5 / 1 / 5 / 2; 
+    border: solid;
+    border-width: 0.1em;
+    display: flex;
+    flex-direction: column-reverse;
+     align-items: center;
+     justify-content: center;
+     background-color: antiquewhite;
+  }
+  
+  .bantuan {
+     grid-area: 6 / 1 / 6 / 2; 
+    border: solid;
+    border-width: 0.1em;
+    display: flex;
+    flex-direction: column-reverse;
+     align-items: center;
+     justify-content: center;
+     background-color: antiquewhite;
+  }
+  .pengaturan {
+     grid-area: 7 / 1 / 7 / 2; 
+     border: solid;
+     border-width: 0.1em;
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: center;
+     justify-content: center;
+     background-color: antiquewhite;
+  }
+  .isi {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "gambar1 gambar2 gambar3"
+      "gambar4 gambar5 gambar6"
+      "gambar7 gambar8 gambar9";
+    grid-area: isi;
+  }
+  
+  .gambar1 { 
+    grid-area: gambar1; 
+    border: solid;
+    border-width: 0.1em;
+    background-color: antiquewhite;
+  }
+  
+  .gambar2 {
+     grid-area: gambar2; 
+     border: solid;
+     border-width: 0.1em;
+     background-color: antiquewhite;
+    }
+  
+  .gambar3 { 
+    grid-area: gambar3; 
+    border: solid;
+    border-width: 0.1em;
+    background-color: antiquewhite;
+  }
+  
+  .gambar4 { grid-area: gambar4; 
+    border: solid;
+    border-width: 0.1em;
+    background-color: antiquewhite;
+  }
+  
+  .gambar5 {
+     grid-area: gambar5;
+     border: solid;
+     border-width: 0.1em;
+     background-color: antiquewhite;
+    }
+  
+  .gambar6 {
+     grid-area: gambar6; 
+     border: solid;
+     border-width: 0.1em;
+     background-color: antiquewhite;
+    }
+  
+  .gambar7 {
+     grid-area: gambar7; 
+     border: solid;
+     border-width: 0.1em;
+     background-color: antiquewhite;
+    }
+  
+  .gambar8 { 
+    grid-area: gambar8; 
+    border: solid;
+    border-width: 0.1em;
+    background-color: antiquewhite;
+  }
+  
+  .gambar9 {
+     grid-area: gambar9; 
+     border: solid;
+     border-width: 0.1em;
+     background-color: antiquewhite;
+    }
+  
+  .footer { 
+    grid-area: footer; 
+    border: solid;
+    border-width: 0.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    font-size: 2em;
+  }
+  
+  .header {
+     grid-area: header; 
+     border: solid;
+     border-width: 0.1em;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: antiquewhite;
+     font-size: 2em;
+    }
+  
